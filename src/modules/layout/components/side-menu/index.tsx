@@ -14,6 +14,8 @@ const SideMenuItems = {
   Store: "/store",
   Account: "/account",
   Cart: "/cart",
+  About: "/about",
+  Contact: "/contact",
 }
 
 const SideMenu = ({ regions }: { regions: HttpTypes.StoreRegion[] | null }) => {
