@@ -18,9 +18,13 @@ export default async function Footer() {
           <div>
             <LocalizedClientLink
               href="/"
-              className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
+              className="flex items-center"
             >
-              Suncan Solar
+              <img 
+                src="https://pub-2c0b0a915a3f403680c2a495562263cd.r2.dev/WhatsApp_Image_2025-02-04_at_15.12.22-removebg-preview.png"
+                alt="Suncan Solar Logo"
+                className="h-12 w-auto"
+              />
             </LocalizedClientLink>
           </div>
           <div className="text-small-regular gap-10 md:gap-x-16 grid grid-cols-2 sm:grid-cols-3">
