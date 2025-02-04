@@ -42,7 +42,11 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "51d99a81860586efc6a8267f628039ad.r2.cloudflarestorage.com",
-      }
+      },
+      {
+        protocol: "https",
+        hostname: "pub-2c0b0a915a3f403680c2a495562263cd.r2.dev",
+      },
     ],
     minimumCacheTTL: 60,
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
