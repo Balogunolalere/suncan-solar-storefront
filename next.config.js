@@ -36,6 +36,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
+      {
+        prptocol: "https",
+        hostname: "51d99a81860586efc6a8267f628039ad.r2.cloudflarestorage.com",
+      }
     ],
   },
 }
