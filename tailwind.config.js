@@ -21,6 +21,22 @@ module.exports = {
         padding: "padding-top padding-right padding-bottom padding-left",
       },
       colors: {
+        // Suncan Solar brand colors
+        primary: {
+          light: '#FFB74D', // Solar orange light
+          DEFAULT: '#FF9800', // Solar orange
+          dark: '#F57C00', // Solar orange dark
+        },
+        secondary: {
+          light: '#4FC3F7', // Sky blue light
+          DEFAULT: '#29B6F6', // Sky blue
+          dark: '#0288D1', // Sky blue dark
+        },
+        accent: {
+          light: '#81C784', // Eco green light
+          DEFAULT: '#66BB6A', // Eco green
+          dark: '#388E3C', // Eco green dark
+        },
         grey: {
           0: "#FFFFFF",
           5: "#F9FAFB",
@@ -60,6 +76,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
+          'Plus Jakarta Sans',
           "Inter",
           "-apple-system",
           "BlinkMacSystemFont",
@@ -140,6 +157,26 @@ module.exports = {
           "0%": { transform: "translateY(-100%)" },
           "100%": { transform: "translateY(0)" },
         },
+        "fade-in-up": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(20px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "fade-in-down": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-20px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         ring: "ring 2.2s cubic-bezier(0.5, 0, 0.5, 1) infinite",
@@ -155,6 +192,14 @@ module.exports = {
         enter: "enter 200ms ease-out",
         "slide-in": "slide-in 1.2s cubic-bezier(.41,.73,.51,1.02)",
         leave: "leave 150ms ease-in forwards",
+        "fade-in-up": "fade-in-up 0.5s ease-out forwards",
+        "fade-in-down": "fade-in-down 0.5s ease-out forwards",
+      },
+      backgroundImage: {
+        'grid-pattern': "linear-gradient(to right, rgb(0 0 0 / 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgb(0 0 0 / 0.1) 1px, transparent 1px)",
+      },
+      backgroundSize: {
+        'grid-pattern': '4rem 4rem',
       },
     },
   },
