@@ -28,7 +28,7 @@ export default async function Nav() {
               <img 
                 src="https://pub-2c0b0a915a3f403680c2a495562263cd.r2.dev/WhatsApp_Image_2025-02-04_at_15.12.22-removebg-preview.png"
                 alt="Suncan Solar Logo"
-                className="h-12 w-auto"
+                className="h-48 w-auto"
               />
             </LocalizedClientLink>
           </div>
